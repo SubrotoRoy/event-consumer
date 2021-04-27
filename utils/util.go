@@ -14,6 +14,7 @@ import (
 	"github.com/SubrotoRoy/event-consumer/model"
 )
 
+//cache is a map with string key and model.PriceDerails as value.
 var cache = map[string]model.PriceDetail{}
 
 //GetFuelPrice returns the per litre cost of fuel for a given city
